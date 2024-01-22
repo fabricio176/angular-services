@@ -26,8 +26,16 @@
     margin-left: auto;
     margin-right: auto;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #616161;
 }
+
+.card__body img {
+    height: 150px;
+}
+
 
 .card__stats{
     padding-top: 10px;
